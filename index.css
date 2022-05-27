@@ -1,0 +1,62 @@
+/* .body{
+    background-image: url("./img/livraria.jpg");
+    opacity:0.75;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    width: 400px;
+    height: 400px;
+} */
+
+.container {
+    /* Content is centered horizontally */
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    background-image: url("./img/index.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 300vh;
+}
+
+.container__column {
+    /* Content is centered vertically */
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    /* Make all columns have the same width */
+    flex: 1;
+    background-color: rgba(79, 155, 183, 0.422);
+    /* OPTIONAL: Space between columns */
+    margin: 0 8px;
+
+    /* OPTIONAL: Border */
+    border: 3px solid rgba(45, 160, 232, 0.84);
+    border-radius: 8px;
+}
+
+.mostruario{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.button {
+    /* Center the content */
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.livro{
+    width: 105px;
+    height: 160px;
+    border-radius: 4px;
+}
